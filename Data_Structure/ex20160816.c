@@ -307,7 +307,7 @@ int main()
 }
 #endif
 
-#if 1
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -363,13 +363,9 @@ void reverse_display(NODE* target)
 	NODE* temp;
 	temp = target->next;
 
-	if (temp->next == &head)
-		printf(" -> [%d]", temp->data);
-	else
-	{
+	if (temp->next != &head)
 		reverse_display(target->next);
-		printf(" -> [%d]", temp->data);
-	}
+	printf(" -> [%d]", temp->data);
 }
 
 int main()
@@ -393,3 +389,5 @@ int main()
 	printf("\n");
 }
 #endif
+
+// ==========================Single Linked List============================
