@@ -396,7 +396,7 @@ int main()
 }
 #endif
 
-#if 1
+#if 0
 #include <stdio.h>
 #define BIT_SET(index, x) (x[index/32] |= (1 << (index % 32)))
 #define BIT_ISSET(index, x) (x[index/32] & (1 << (index % 32)))
