@@ -27,5 +27,8 @@
     <ClCompile Include="ex20160819.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex20160822.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

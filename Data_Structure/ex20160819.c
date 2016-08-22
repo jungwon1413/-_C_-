@@ -288,7 +288,7 @@ int main()
 }
 #endif
 
-#if 1
+#if 0
 #include <stdio.h>
 #include <Windows.h>
 #pragma warning(disable:4996)
@@ -395,3 +395,26 @@ int main()
 	display_binary(s, file_name);
 }
 #endif
+
+//#if 1
+//#include <stdio.h>
+//int main()
+//{
+//	FILE *fp;
+//
+//	fopen_s(&fp, "test.txt", "r+");
+//	fprintf(fp, "This is testing for fprintf...\n");
+//	fputs("This is testing for fputs...\n", fp);
+//	fclose(fp);
+//}
+////#endif
+//#include <stdio.h>
+//int main()
+//{
+//	//char *p = 0;
+//	char ch = 'a';
+//	void *ptr;
+//	ptr = ch;
+//
+//	printf("%c\n", (int)*ptr);
+//}
