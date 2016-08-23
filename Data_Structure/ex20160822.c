@@ -413,7 +413,7 @@ int main()
 }
 #endif
 
-#if 1
+#if 0
 // #Step 1
 // 3. in_order()함수 구현
 // 문제점: 출력 상의 문제 (일자로 출력됨)
