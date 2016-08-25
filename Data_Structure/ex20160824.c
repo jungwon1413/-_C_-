@@ -640,7 +640,7 @@ int main()
 //////////////////////////////////////////// 여기까지 수업시간에 적다가 중간에 미스난 코드
 
 
-#if 1
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -696,8 +696,10 @@ typedef struct _arg {
 
 void __display(ARG arg)
 {
-	ARG ar;  ar = arg;
-	if (arg.temp == 0) return;
+	ARG ar;  
+	ar = arg;
+	if (arg.temp == 0) 
+		return;
 	++(*(arg.row));
 
 	ar.temp = arg.temp->left;
@@ -741,9 +743,10 @@ void display(NODE *temp)
 	return;
 }
 
-NODE * search(NODE *node, int key)
+NODE* search(NODE *node, int key)
 {
-	if (node == NULL) return NULL;
+	if (node == NULL) 
+		return NULL;
 
 	if (key == node->data)
 		return node;
@@ -786,6 +789,7 @@ NODE *rotate_RL(NODE *parent)
 #define SIZE(a) ( (sizeof(a)) / (sizeof(a[0])))
 #define MAX(a,b)   ( ( (a) > (b) ) ? (a) : (b) )
 #pragma warning(disable:4996)
+
 int get_height(NODE *node)
 {
 	int height = 0;

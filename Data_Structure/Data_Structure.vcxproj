@@ -153,6 +153,7 @@
     <ClCompile Include="ex20160822.c" />
     <ClCompile Include="ex20160823.c" />
     <ClCompile Include="ex20160824.c" />
+    <ClCompile Include="ex20160825.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
