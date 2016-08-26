@@ -137,7 +137,7 @@ int main()
 }
 #endif
 
-#if 1
+#if 0
 /*
 #Step 1
 1. RB-Tree ¼³°è
